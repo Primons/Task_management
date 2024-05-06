@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.task-form{
+    margin-top: 20px;
+}
+
+.task-form input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.task-form button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(226, 108, 12);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-form button:hover{
+    background-color: greenyellow;
+
+}
+
+.task-item{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.task-item span{
+    margin-right: 10px;
+}
+
+.task-item button{
+    background-color: sienna;
+    color: white;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.task-item button:hover{
+    background-color: rgb(232, 18, 200);
+}
